@@ -1,0 +1,39 @@
+.main {
+  .header {
+    height: 200px;
+    width: 100%;
+    background: #5075C6;
+    .wrap {
+      width: 800px;
+      height: 150px;
+      margin: 0 auto;
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+      h1 {
+        font-family: 'Dosis', arial;
+        color: #fff;
+        font-size: 30px;
+        font-weight: normal;
+      }
+      .btnNew {
+        width: 170px;
+        height: 40px;
+        border: 1px solid #fff;
+        border-radius: 5px;
+        color: #fff;
+        text-align: center;
+        line-height: 38px;
+        font-size: 14px;
+        cursor: pointer;
+        &:hover {
+          background: lighten(#5075C6, 10%);
+        }
+      }
+    }
+  }
+  .paginationBox {
+    width: 200px;
+    margin: 50px auto;
+  }
+}

@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: 'Open Sans', arial;
+  background: #F7F7F7;  
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  button {
+    height: 40px;
+    margin-top: 25px;
+    background: #5075C6;
+    border: 1px solid #5075C6;
+    color: #fff;
+    &:hover, &:active, &:focus {
+      background-color: darken(#5075C6, 10%) !important;
+      color: #fff !important;
+    }
+  }
+}
